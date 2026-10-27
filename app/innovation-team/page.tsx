@@ -1,7 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
+
+export const metadata: Metadata = {
+  title: 'AI Innovation Team & Experts | EmergeAI Risk Radar',
+  description:
+    'Meet the EmergeAI Risk Radar team of thinkers, creators and technologists building smarter AI solutions for a rapidly evolving world and businesses.',
+};
 
 interface MemberItem {
   name: string;

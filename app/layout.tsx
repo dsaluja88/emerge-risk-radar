@@ -14,8 +14,9 @@ const rethinkSans = Rethink_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'EmergeAI Risk Radar',
-  description: 'AI-powered software risk assessment tool for release pipelines.',
+  title: 'AI-Powered QA Risk Assessment | EmergeAI Risk Radar',
+  description:
+    'EmergeAI Risk Radar is an AI-powered QA risk assessment tool that analyzes requirements, bugs and code changes to flag release risk before production.',
   icons: {
     icon: '/images/favicon.png',
     apple: '/images/favicon.png',

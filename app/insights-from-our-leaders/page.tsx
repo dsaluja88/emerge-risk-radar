@@ -1,7 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
+
+export const metadata: Metadata = {
+  title: 'Leadership Insights & Perspectives | EmergeAI Risk Radar',
+  description:
+    'Discover ideas from EmergeAI Risk Radar leaders on Agentic AI, software quality, risk assessment, automation and intelligent decision-making.',
+};
 
 interface LeaderItem {
   name: string;

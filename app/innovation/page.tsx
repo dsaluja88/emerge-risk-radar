@@ -1,7 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import PageHero from '@/components/PageHero';
 import { APP_URL } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: 'AI Software Risk Assessment Tool | EmergeAI Risk Radar',
+  description:
+    'EmergeAI Risk Radar analyzes requirements, bug reports and code changes using project documentation to flag release risk and auto-generate test cases.',
+};
 
 const steps = [
   {
